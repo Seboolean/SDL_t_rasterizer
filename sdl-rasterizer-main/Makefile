@@ -1,11 +1,11 @@
 build:
-	gcc -Wall ./src/*.c -I /Users/sebsiv/Development/sdl-rasterizer-main/"SDL2 files"/SDL2 -L /Users/sebsiv/Development/sdl-rasterizer-main/"SDL2 files"/lib -l SDL2-2.0.0 -o t_rasterizer
+	gcc -Wall ./src/*.c -I /Users/sebsiv/Development/SDL_t_rasterizer/sdl-rasterizer-main/"SDL2 files"/SDL2 -L /Users/sebsiv/Development/SDL_t_rasterizer/sdl-rasterizer-main/"SDL2 files"/lib -l SDL2-2.0.0 -o tr_rasterizer
 
 run:
-	./rasterizer
+	./tr_rasterizer
 
 clean:
-	rm rasterizer
+	rm tr_rasterizer
 
 
 
